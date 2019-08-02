@@ -1,6 +1,6 @@
 package com.coDashboardV1.pageObjects;
 
-import org.apache.commons.compress.utils.Lists;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,12 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomePatientDetailsPage {
+public class PatientDetailsPage {
 
 
     WebDriver localdriver;
 
-    public HomePatientDetailsPage(WebDriver remotedriver){
+    public PatientDetailsPage(WebDriver remotedriver){
         localdriver=remotedriver;
         PageFactory.initElements(remotedriver,this);
     }

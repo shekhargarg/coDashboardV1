@@ -1,0 +1,10 @@
+<suite name = "Suite">
+    <test name="Test">
+        <classes>
+            <class name= "com.coDashboardV1.testCases.TestCase_Login">
+
+            </class>
+        </classes>
+
+    </test>
+</suite>
