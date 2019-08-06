@@ -60,17 +60,20 @@ public class PatientDetailsPage {
     @FindBy(xpath = "//a[contains(text(),'Overview')]")
     WebElement lblOverviewTab;
 
-    @FindBy(xpath = "//a[contains(text(),'History')]")
+    @FindBy(xpath = "//a[contains(text(),'Analysis Report')]")
     WebElement lblHistoryTab;
 
     @FindBy(xpath = "//a[contains(text(),'Medical Record')]")
     WebElement lblMedicalRecordTab;
 
     public String getDoctorName(){
+        System.out.println("****Fetching Doctor Name****");
         String lblDocIniText = lblDocIni.getText();
+        System.out.println("The Doctor Name is :"+lblDocIniText);
         return lblDocIniText;
     }
     public void getPatientDetails(){
+        System.out.println("****Fetching Patients Details****");
         String lblPatNameText = lblPatName.getText();
         String lblGenderText = lblGender.getText();
         String lblAgeText = lblAge.getText();
@@ -81,6 +84,7 @@ public class PatientDetailsPage {
             listPatDetails.add(lblAgeText);
     }
     public void getPatBodyMeasurement(){
+        System.out.println("****Fetching Body Measurements****");
         String lblWeightText = lblWeight.getText();
         String lblHeightText = lblHeight.getText();
         String lblAffectedSideText = lblAffectedSide.getText();
@@ -91,6 +95,7 @@ public class PatientDetailsPage {
         listPatBm.add(lblAffectedSideText);
     }
     public void getKss(){
+        System.out.println("****Fetching KSS Details****");
         String lblAlingnmentText = lblAlingnment.getText();
         String lblRanMotionText = lblRanMotion.getText();
         String lblMLInstabilityText = lblMLInstability.getText();
@@ -103,6 +108,7 @@ public class PatientDetailsPage {
         listPatKSS.add(lblAPInstabilityText);
     }
     public void getTabNames(){
+        System.out.println("****Fetching Tab Name****");
         String lblOverviewTabText = lblOverviewTab.getText();
         String lblHistoryTabText = lblHistoryTab.getText();
         String lblMedicalRecordTabText = lblMedicalRecordTab.getText();
