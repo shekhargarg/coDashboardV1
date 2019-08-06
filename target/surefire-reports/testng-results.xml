@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="23857" started-at="2019-08-06T13:42:02Z" finished-at="2019-08-06T13:42:26Z">
+    <groups>
+    </groups>
+    <test name="/Users/shekhargarg/Desktop/Connected Life/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestCase_Login.java" duration-ms="23857" started-at="2019-08-06T13:42:02Z" finished-at="2019-08-06T13:42:26Z">
+      <class name="com.coDashboardV1.testCases.TestCase_Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.coDashboardV1.testCases.TestCase_Login@234bef66]" name="setup" is-config="true" duration-ms="2774" started-at="2019-08-06T13:42:02Z" finished-at="2019-08-06T13:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Loginverify()[pri:0, instance:com.coDashboardV1.testCases.TestCase_Login@234bef66]" name="Loginverify" duration-ms="21049" started-at="2019-08-06T13:42:05Z" finished-at="2019-08-06T13:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginverify -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.coDashboardV1.testCases.TestCase_Login@234bef66]" name="teardown" is-config="true" duration-ms="0" started-at="2019-08-06T13:42:26Z" finished-at="2019-08-06T13:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.coDashboardV1.testCases.TestCase_Login -->
+    </test> <!-- /Users/shekhargarg/Desktop/Connected Life/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestCase_Login.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

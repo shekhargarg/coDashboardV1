@@ -1,0 +1,12 @@
+com/coDashboardV1/pageObjects/PatientsListPage.class
+com/coDashboardV1/testCases/commonFunction.class
+com/coDashboardV1/testCases/TestCase_PatientDetails.class
+com/coDashboardV1/pageObjects/LoginPage.class
+com/coDashboardV1/pageObjects/PatientDetailsPage.class
+com/coDashboardV1/testCases/TestCase_Logout.class
+com/coDashboardV1/testCases/TestCase_HomePage.class
+com/coDashboardV1/pageObjects/OverviewTabPage.class
+com/coDashboardV1/testCases/TestClass.class
+com/coDashboardV1/pageObjects/LogoutPage.class
+com/coDashboardV1/testCases/TestCase_Login.class
+com/coDashboardV1/testCases/BaseClass.class

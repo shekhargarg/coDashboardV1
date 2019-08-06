@@ -22,7 +22,7 @@ public class BaseClass extends commonFunction{
         options.addArguments("window-size=1400,800");
         options.addArguments("headless");
 
-        System.setProperty("webdriver.chrome.driver","/Users/shekhargarg/Desktop/Connected Life/coDashboardV1/Drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/home/conlifemongouser/coDashboardV1/Drivers/chromedriver");
         //System.setProperty("Webdriver.chrome.driver",System.getProperty("user.dir")+"Drivers/chromedriver");
         System.out.println("Launching Chrome in Headless Mode");
         driver = new ChromeDriver(options);

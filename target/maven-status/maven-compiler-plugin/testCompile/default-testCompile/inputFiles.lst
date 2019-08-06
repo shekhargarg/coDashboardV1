@@ -1,0 +1,13 @@
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/pageObjects/LoginPage.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestCase_PatientDetails.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/pageObjects/OverviewTabPage.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/pageObjects/PatientsListPage.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/BaseClass.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestCase_Logout.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/commonFunction.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/pageObjects/LogoutPage.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/pageObjects/PatientDetailsPage.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestCase_Login.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestClass.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/DbConnect.java
+/home/conlifemongouser/coDashboardV1/src/test/java/com/coDashboardV1/testCases/TestCase_HomePage.java
