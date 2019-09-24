@@ -129,8 +129,8 @@ public class LoginPage extends commonFunction {
 
     public void loginDoctor() {
         output("Login initiated");
-        objUserNameWebEdit.sendKeys("admin");
-        objPasswordWebEdit.sendKeys("admin");
+        objUserNameWebEdit.sendKeys("chia");
+        objPasswordWebEdit.sendKeys("password123");
         objSubmitBtn.click();
     }
 
